@@ -327,11 +327,128 @@
 //else{
   //  document.write("You are fail");
 //}
+//task no 10
+//var  name1= prompt("enter item name");
+//var  name2= prompt("enter item name");
+//var  price1= +prompt("enter" + name1 + "price");
+//var  price2= +prompt("enter"+ name2 + "price");
+//var  order1= +prompt("enter" + name1 + "quantity");
+//var  order2= +prompt("enter" + name2 + "quantity");
+//var  shiping= +prompt("shipment charges");
+//document.write("Price of " + name1 + " is " + price1+ "<br>");
+//document.write("Price of " + name2 + " is " + price2 + "<br>");
+//document.write("quantity of " + name1 + " is " + order1+ "<br>");
+//document.write("quantity of " + name2 + " is " + order2+ "<br>");
+//document.write("Shipping Charges " + shiping + "<br>" );
 
-var  name1= +prompt();
-var  name2= +prompt();
-var  price1= +prompt();
-var  price2= +prompt();
-var  order1= +prompt();
-var  order2= +prompt();
-var  shiping= +prompt();
+//var total = (price1*order1) + (price2*order2) +shiping;
+//document.write("Total price is " + total + "<br>");
+//if(total>2000){
+//    var dis= total/100 *10;
+//    var newtot= total -dis;
+//    document.write("Total price after discount is " + newtot);
+//}
+    //task no 11
+//for(var i=0;i==10;i++){
+//    var a = i;
+//}
+//var quiz = +prompt("enter any number");
+//if(quiz<=10){
+//    document.write("Bingo you won");
+//}
+    //task no 12
+//var a = +prompt("enter any number");
+//var b = a % 3;
+//if(b===0){
+//    document.write("the number is divisible by 3");
+//}
+//else{
+//    document.write("number is not divisible by 3");
+//}
+    //task no 13
+//var team1 = prompt("team1 name");
+//var team2 = prompt("team2 name");
+//var s1 = +prompt("enter "+ team1+" score");
+//var s2 = +prompt("enter "+team2 +" score");
+//if(s1>s2){
+//    alert(team1+ " won");
+//}
+//else if(s2>s1){
+//    alert(team2+" won");
+//}
+//else if(s1=s2){
+//    alert("game is tie");
+//}
+    //task no 14
+//var a = prompt("string");
+//var b = +prompt("number");
+//var c = prompt("boolean");
+//if(a===a){
+ //   alert(a+ " is string");
+//}
+//if(b===b){
+ //   alert(b+ " is number");
+
+//}
+//if(c===c){
+//    alert(c+ " is true");
+//}
+    //task no 15
+//var a = +prompt("enter any number");
+//var b = a % 2;
+//if(b==0){
+ //   document.write("number is even");
+//}
+//else if(b==1){
+//    document.write("number is odd");
+//}
+    //task no 16
+//var a = +prompt("enter temperature");
+//if(a>40){
+//    document.write("it is too hot");
+//}
+//else if(a>30){
+//    document.write("the weather is normal");
+//}
+//else if(a>20){
+//    document.write("the weather is cool");
+//}
+//else if(a>10){
+//   document.write("it is too cold outside");
+//}
+    //task no 17
+//var a = +prompt("enter value 1");
+//var b = +prompt("enter value 2");
+//var c = prompt("enter arthimetic operation");
+//if(c=="add"){
+//    document.write(a+b);
+//}
+//if(c=="sub"){
+//    document.write(a-b);
+//}
+//if(c=="mul"){
+//    document.write(a*b);
+//}
+//if(c=="divd"){
+ //   document.write(a/b);
+//}
+    //task no 18
+//var day = prompt("enter day");
+//if(day=="monday" || day=="tuesday" || day=="wednesday" || day=="thursday" || day=="friday"){
+//document.write("it is week day");
+//}
+//else if(day=="saturday"){
+ //   document.write("it's weekend");
+//} 
+//else if(day=="sunday"){
+//    document.write("yah! it's Holiday");
+//}
+    //task no 19
+//var a = +prompt("enter score");
+//if(a>50){
+//    document.write("You are passed");
+//}
+//else if(a<50){
+ //   document.write("Try again");
+//}
+
