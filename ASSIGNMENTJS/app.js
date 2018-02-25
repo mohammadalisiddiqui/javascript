@@ -451,4 +451,195 @@
 //else if(a<50){
  //   document.write("Try again");
 //}
+    //task no 20
+//var a = +prompt("Enter num 1");
+//var b = +prompt("Enter num 2 ");
+//if(a>b){
+//    document.write("the greater number of " + a +" and " + b + " is " + a);
+//}
+//else if(b>a){
+//    document.write("the greater number of " + a +" and " + b + " is " + b);
+//}
+//else if(a==b){
+//    document.write("number is equal");
+//}
+
+    //task no 21
+//var a = prompt("Enter any mentioned code , english , spanish , arabic");
+//if(a === "english"){
+//    alert("hello world");
+//}
+//else if(a === "spanish"){
+//    alert("Hola Mundo means hello world");
+//}
+//else if(a === "arabic"){
+//    alert("مرحبا بالعالم  means hello world")
+//}
+
+    //task no 22
+//var a = +prompt("enter any number");
+//if(a<0){
+//    document.write(a +"  is negative");
+//}
+//else if(a>=0){
+//    document.write(a + "  is positive");
+//}
+    //task no 23
+//var number = +prompt("enter number");
+//var noun = prompt("enter noun");
+//if(number==1){
+//    alert(number + " "+ noun);
+//}
+//else if(number>1){
+//alert(number+ " "+noun+"s");
+//}
+
+//CHAPTER 7 IF…ELSE	&	ELSE	IF	STATEMENTS,	TESTING	SET	OF	CONDITIONS &SWITCH	STATEMENTS
+
+    //task no 1
+//var a = +prompt("enter any number");
+//var b = a % 3;
+//if(b==0){
+//    document.write("number is divisible by 3");
+//}
+//else{
+//    document.write("number is not divisible by 3");
+//}
+    //task no 2
+//var a = +prompt("enter any number");
+//var b = a % 2;
+//if(b==0){
+//    document.write("given number is even");
+//}
+//else{
+//    document.write("given number is odd");
+//}
+
+    //task no 3
+//var a = +prompt("enter value");
+//if(a>18){
+//    document.write("old enough");
+//}
+//else{
+//    document.write("Too young");
+//}
+    //task no 4
+//var a = prompt("enter your name");
+//if(a==="mohammadali"){
+//    document.write("congratulation your name is found");
+//}
+    //task no 5
+//var a = +prompt("enter any number");
+//var b = a % 3;
+//if(b==0){
+//    document.write("number is divisible by 3");
+//}
+//else{
+//    document.write("number is not divisible by 3");
+//}
+    //task no 8
+//var a = +prompt("enter time in 24 hour format (0000-2359)");
+//if(a>=0000 && a<1200){
+//    alert("good morning");
+//}
+//else if(a>=1200 && a<1700){
+//    alert("good afternoon");
+//}
+//else if(a>=1700 && a<2100){
+//    alert("good evening");
+//}
+//else if(a>=2100 && a<2359){
+//    alert("good night");
+//}
+
+    //task no 9
+//var a = +prompt("enter year");
+//var b = a % 4
+//if(b==0){
+//    alert("it is leap year");
+//}
+//else{
+//    alert("it is not leap year");
+//}
+    //task no 10
+//var passWord = "siddiqui";
+//var pass = prompt("enter your password");
+//if(pass === ""){
+//    alert("please enter password");
+//} 
+//if(pass === passWord){
+ //   alert("Correct! The password you entered matches the original password");
+//}
+//else if(pass !== passWord){
+//    alert("Incorrectpassword");
+//}
+    //task no 11
+//var firstName = prompt("enter name");
+//if (firstName === "fahad") {
+//document.write("Hello fahad!");
+//}
+//else if(firstName !== "fahad"){
+//    document.write("you are not fahad");
+//}
+    //task no 12
+//var greeting;
+//var hour = 13;
+//if (hour < 18) {
+//greeting = "Good day";
+//}
+//else{
+//greeting = "Good evening";
+//}
+//alert(greeting);
+    //task no 13
+//var num1 = +prompt("Enter value 1");
+//var num2 = +prompt("enter value 2");
+//if(num1>num2){
+//    alert(num1 + " is  Greater than "+ num2);
+//} 
+//else if(num2>num1){
+//    alert(num2 + " is  Greater than "+ num1); 
+//}
+//else if(num1 == num2){
+//    alert(num1 + " is  equal to "+ num2);
+//}
+    //task no 14
+//var a = +prompt("enter number");
+//if(a<0){
+//    document.write("number is negative ");
+//}
+//else if(a>0){
+//    document.write("number is positive ");
+//}
+//else if(a === 0){
+//    document.write("number is 0 ");
+//}
+    //task no 15
+//var hour = +prompt("enter hour");
+//if(hour=0600 && hour<0900){
+//    document.write("Breakfast is served.");
+//}
+//else if(hour=1100 && hour<=1300){
+//    document.write("Time for lunch.");
+//}
+//else if(hour=1700 && hour<=2000){
+//    document.write("its a dinner time");
+//}
+//else{
+//    document.write("Sorry, you'll have to wait, or go get a snack.");
+//}
+    //task no 17
+//var a = prompt("enter letter");
+//if(a == "a" ||a == "e" || a=="i" || a=="o" || a== "u" ){
+//    document.write("true IT is a VOVEL   "+ a);
+//}
+//else{
+//    document.write("false it is not a vovel   "+a);
+//}
+    //task no 18
+//var a = 10;
+//var b = 8;
+//if(a != b){
+//    alert("true");
+//}
 
